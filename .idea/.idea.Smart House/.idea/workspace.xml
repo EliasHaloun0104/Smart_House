@@ -11,6 +11,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\ELHA0104\UnityPorject\Smart House\.idea\.idea.Smart House\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1SFArnrNd1YV80oWwviCgxumCah" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -43,8 +57,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571149178541</updated>
-      <workItem from="1571149206196" duration="239000" />
+      <workItem from="1571149206196" duration="478000" />
     </task>
+    <task id="LOCAL-00001" summary="Add File workspace">
+      <created>1571149658252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571149658252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,6 +76,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Add File workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add File workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
