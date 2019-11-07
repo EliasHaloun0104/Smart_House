@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace Script
 {
@@ -30,9 +31,10 @@ namespace Script
         // Start is called before the first frame update
         void Start()
         {
+            _attention = 50;
             //Real connection
             //Connect();
-            
+
             //false connection
             StartCoroutine(FalseReading());
         }
@@ -66,6 +68,7 @@ namespace Script
             }
         }
         
+
         // ReSharper disable once FunctionRecursiveOnAllPaths
         private IEnumerator Reading()
         {
@@ -128,6 +131,7 @@ namespace Script
             yield return new WaitForSeconds(0.5f);
             StartCoroutine(FalseReading());
         }
+        
 
 
         public override string ToString()
