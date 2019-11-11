@@ -33,10 +33,10 @@ namespace Script
         {
             _attention = 50;
             //Real connection
-            //Connect();
+            Connect();
 
             //false connection
-            StartCoroutine(FalseReading());
+            //StartCoroutine(FalseReading());
         }
         
         //This method used to communicate w the real EEG Connecter
@@ -95,36 +95,27 @@ namespace Script
                 else if (temp.Contains("blinkStrength"))
                 {
                     var json = JObject.Parse(temp);
+                    //var eyeStrength = (int) json["blinkStrength"];
+                    //If the eye blinking strength > 150 (ignore all weak blink)
+                    //_eyeBlinking = eyeStrength>120 ? eyeStrength : 0;
                     _eyeBlinking = (int) json["blinkStrength"];
+                    yield return new WaitForSeconds(2);
+                    _eyeBlinking = 0;
                 }
             }
             text.SetText(ToString());
-            yield return new WaitForSeconds(0.2f); // Connect the device 20 times per sec
+            yield return new WaitForSeconds(0.2f); // Read from device every 0.2 sec
             StartCoroutine(Reading());
         }
-
-        public int Attention
-        {
-            get => _attention;
-        }
-
-        public int Meditation
-        {
-            get => _meditation;
-        }
-
-        public int EyeBlinking
-        {
-            get => _eyeBlinking;
-        }
-
-
 
         IEnumerator FalseReading()
         {
             _attention = Random.Range(0, 100);
+            //Update Slider
+            var sliderValue = (int) slider.value;
+            if (_attention > sliderValue) slider.value += 2;
+            if (_attention < sliderValue) slider.value -= 2;
             
-            UpdateSlider();
             _meditation = Random.Range(0, 100);
             _eyeBlinking = (Random.Range(0, 100) > 95) ? Random.Range(150, 200) : 0;
             text.SetText(ToString());
@@ -132,19 +123,15 @@ namespace Script
             StartCoroutine(FalseReading());
         }
         
-
-
         public override string ToString()
         {
             return $"Attention: {_attention}, Meditation {_meditation}, Blink: {_eyeBlinking}";
         }
 
-        private void UpdateSlider()
+        public int EyeBlinking
         {
-            var sliderValue = (int) slider.value;
-            if (_attention > sliderValue) slider.value += 2;
-            if (_attention < sliderValue) slider.value -= 2;
-
+            get => _eyeBlinking;
+            set => _eyeBlinking = value;
         }
     }
 }

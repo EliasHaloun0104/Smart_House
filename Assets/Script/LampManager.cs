@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Experimental.PlayerLoop;
 
 namespace Script
 {
@@ -8,6 +7,7 @@ namespace Script
         private SpriteRenderer _spriteRenderer;
         [SerializeField] private Sprite lampOn;
         [SerializeField] private Sprite lampOff;
+        private bool _isOn;
         private bool _lampStatus;
         
         // Start is called before the first frame update
@@ -15,7 +15,8 @@ namespace Script
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
             //On Initialize
-            GetLampStatus();
+            if (GetLampStatus()) TurnOn();
+            else TurnOff();
         
         }
 
@@ -36,10 +37,18 @@ namespace Script
         void TurnOn()
         {
             _spriteRenderer.sprite = lampOn;
+            _isOn = true;
         }
         void TurnOff()
         {
             _spriteRenderer.sprite = lampOff;
+            _isOn = false;
+        }
+
+        public bool IsOn
+        {
+            get => _isOn;
+            set => _isOn = value;
         }
 
         //TODO Connect to the server and Get the status
@@ -58,7 +67,7 @@ namespace Script
 
         public void ReverseStatus()
         {
-            if (GetLampStatus())
+            if (_isOn)
             {
                 TurnOff();
             }

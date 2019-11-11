@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Particle System.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Particle System.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Area.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Area.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/LampManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/LampManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Light Area.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Light Area.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/cursor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/cursor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/cursor2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/cursor2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/lightOff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/lightOff.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/lightOn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/lightOn.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Cursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Cursor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Area.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Area.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EegReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EegReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LampManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LampManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,15 +19,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/EegReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Font/CANDARAI.TTF.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/EegReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main Scene.unity.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,10 +41,10 @@
         <option value="$PROJECT_DIR$/Assets/Script/EegReader3.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LineGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/cursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +111,8 @@
       <workItem from="1571160874928" duration="1645000" />
       <workItem from="1571591927374" duration="4785000" />
       <workItem from="1571728453768" duration="8460000" />
-      <workItem from="1573137266901" duration="5476000" />
+      <workItem from="1573137266901" duration="10685000" />
+      <workItem from="1573463097192" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -170,7 +156,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571738614300</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update &amp; Add Sprites">
+      <created>1573144723008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573144723008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Courser Class">
+      <created>1573144771577</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573144771577</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create Area Class to manage the lamp">
+      <created>1573144820236</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573144820236</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add LampManager class to change the status of the lamp">
+      <created>1573144855137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573144855137</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +212,11 @@
     <MESSAGE value="Commit Test" />
     <MESSAGE value="Commit Un-versioned Files" />
     <MESSAGE value="Add Cursor manager class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Cursor manager class" />
+    <MESSAGE value="Update &amp; Add Sprites" />
+    <MESSAGE value="Update Courser Class" />
+    <MESSAGE value="Create Area Class to manage the lamp" />
+    <MESSAGE value="Add LampManager class to change the status of the lamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LampManager class to change the status of the lamp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

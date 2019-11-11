@@ -6,9 +6,12 @@ namespace Script
 {
     public class Area : MonoBehaviour
     {
+        
+        [SerializeField] private EegReader eegReader;
+        [SerializeField] private LampManager lamp;
         [SerializeField] private bool active;
         private SpriteRenderer _spriteRenderer;
-        [SerializeField] private LampManager lamp;
+        
         private Color _originalColor;
         private Color _alternativeColor;
 
@@ -33,7 +36,16 @@ namespace Script
             active = false;
             _spriteRenderer.color = _originalColor;
         }
-        
+
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            if (eegReader.EyeBlinking > 90)
+            {
+                lamp.ReverseStatus();
+                eegReader.EyeBlinking = 0;
+            }
+        }
+
         //TODO if blink turn on light
         public IEnumerator BlinkDetector()
         {
