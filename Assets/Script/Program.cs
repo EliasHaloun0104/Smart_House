@@ -34,7 +34,7 @@ namespace Script
                 HttpResponseMessage response = await client.GetAsync("SmartHouseApi/devices/");
                 if (response.IsSuccessStatusCode)
                 {
-                    return await response.Content.ReadAsAsync<List<Device>>();
+                    //return await response.Content.ReadAsAsync<List<Device>>();
                 }
 
                 return null;
@@ -51,7 +51,7 @@ namespace Script
                 HttpResponseMessage response = await client.GetAsync("SmartHouseApi/devices/" + deviceId);
                 if (response.IsSuccessStatusCode)
                 {
-                    return await response.Content.ReadAsAsync<Device>();
+                    //return await response.Content.ReadAsAsync<Device>();
                 }
 
                 return null;

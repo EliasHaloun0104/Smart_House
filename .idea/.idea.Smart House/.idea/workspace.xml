@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Java.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Main.class.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Manager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Manager/DeviceManager.class.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Model/Device.class.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT.jar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-archiver.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-archiver/pom.properties.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/Microsoft.AspNet.WebApi.Client.5.2.7.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/Microsoft.AspNet.WebApi.Client.5.2.7.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Customer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Device.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Program.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/Newtonsoft.Json.6.0.4.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/tools/install.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Area.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Area.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EegReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EegReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
