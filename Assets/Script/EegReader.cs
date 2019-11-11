@@ -16,9 +16,9 @@ namespace Script
         [SerializeField] private Slider slider;
         [SerializeField] private TextMeshProUGUI text;
         //The output data
-        private int _attention;
+        [SerializeField] private int _attention;
         private int _meditation;
-        private int _eyeBlinking;
+        [SerializeField] private int _eyeBlinking;
         
         //Internal instance for this class
         private TcpClient _client = null;

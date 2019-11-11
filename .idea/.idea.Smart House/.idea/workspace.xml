@@ -2,12 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Java.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Main.class.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Manager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Manager/DeviceManager.class.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Model/Device.class.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT.jar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-archiver.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-archiver/pom.properties.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/Microsoft.AspNet.WebApi.Client.5.2.7.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/Microsoft.AspNet.WebApi.Client.5.2.7.nupkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Customer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Device.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Program.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/Newtonsoft.Json.6.0.4.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/tools/install.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Area.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Area.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EegReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EegReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LampManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LampManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Program.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +75,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Device.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Font/CANDARAI.TTF.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EegReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,8 +120,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Program.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +190,7 @@
       <workItem from="1571591927374" duration="4785000" />
       <workItem from="1571728453768" duration="8460000" />
       <workItem from="1573137266901" duration="10685000" />
-      <workItem from="1573463097192" duration="298000" />
+      <workItem from="1573463097192" duration="2985000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -184,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573144855137</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update Area &amp; Lamp Manager">
+      <created>1573463492646</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573463492649</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +301,8 @@
     <MESSAGE value="Update Courser Class" />
     <MESSAGE value="Create Area Class to manage the lamp" />
     <MESSAGE value="Add LampManager class to change the status of the lamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LampManager class to change the status of the lamp" />
+    <MESSAGE value="Update Area &amp; Lamp Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Area &amp; Lamp Manager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

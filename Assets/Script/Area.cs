@@ -39,7 +39,7 @@ namespace Script
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (eegReader.EyeBlinking > 90)
+            if (eegReader.EyeBlinking > 55)
             {
                 lamp.ReverseStatus();
                 eegReader.EyeBlinking = 0;
