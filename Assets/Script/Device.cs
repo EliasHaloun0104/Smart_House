@@ -1,4 +1,4 @@
-namespace Client
+namespace Script
 {
     public class Device
     {
