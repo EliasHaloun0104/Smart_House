@@ -13,6 +13,7 @@ namespace Script
     {
         public string endPoint { get; set; }
         public httpVerb httpMethod { get; set; }
+        
 
         public RestClient()
         {
@@ -25,7 +26,7 @@ namespace Script
             string strResponseValue = string.Empty;
             HttpWebRequest request = (HttpWebRequest) WebRequest.Create(endPoint);
             request.Method = httpMethod.ToString();
-
+            
             using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
             {
                 if (response.StatusCode != HttpStatusCode.OK)
@@ -46,7 +47,11 @@ namespace Script
             }
 
             return strResponseValue;
+        }
 
+        public void makeUpdate()
+        {
+            
         }
     }
     

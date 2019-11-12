@@ -41,7 +41,7 @@ namespace Script
         {
             if (eegReader.EyeBlinking > 55)
             {
-                lamp.ReverseStatus();
+                lamp.ChangeLamp();
                 eegReader.EyeBlinking = 0;
             }
         }
@@ -51,7 +51,7 @@ namespace Script
         {
             if (active)
             {
-                lamp.ReverseStatus();
+                lamp.ChangeLamp();
                 yield return new WaitForSeconds(2);
                 
             }

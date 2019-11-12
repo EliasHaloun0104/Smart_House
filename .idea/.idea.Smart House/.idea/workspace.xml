@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Device.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Device.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Manager/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Java/target/classes/Manager/DeviceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Java/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Area.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Area.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LampManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LampManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/RestClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/RestClient.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/RestClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main Scene.unity.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,12 +66,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/LineGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Program.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Customer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Device.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/RestClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Program.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +141,8 @@
       <workItem from="1571728453768" duration="8460000" />
       <workItem from="1573137266901" duration="10685000" />
       <workItem from="1573463097192" duration="2985000" />
-      <workItem from="1573469327062" duration="459000" />
+      <workItem from="1573469327062" duration="12177000" />
+      <workItem from="1573560894969" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -216,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573469473682</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Issue">
+      <created>1573469932589</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573469932589</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +269,8 @@
     <MESSAGE value="Add LampManager class to change the status of the lamp" />
     <MESSAGE value="Update Area &amp; Lamp Manager" />
     <MESSAGE value="Restore from Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restore from Problem" />
+    <MESSAGE value="Add Issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

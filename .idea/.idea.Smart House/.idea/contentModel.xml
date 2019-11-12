@@ -15,7 +15,7 @@
           <e p="Device.cs" t="Include" />
           <e p="EegReader.cs" t="Include" />
           <e p="LampManager.cs" t="Include" />
-          <e p="Program.cs" t="Include" />
+          <e p="RestClient.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
