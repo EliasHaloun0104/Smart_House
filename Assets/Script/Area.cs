@@ -45,17 +45,5 @@ namespace Script
                 eegReader.EyeBlinking = 0;
             }
         }
-
-        //TODO if blink turn on light
-        public IEnumerator BlinkDetector()
-        {
-            if (active)
-            {
-                lamp.ChangeLamp();
-                yield return new WaitForSeconds(2);
-                
-            }
-        }
-        
     }
 }
