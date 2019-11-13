@@ -29,11 +29,8 @@ namespace Script
             //On Initialize
             //if (GetLampStatus()) TurnOn();
             //else TurnOff();
-            Debug.Log(GetLampStatus());
-            string[] args = {"1", "indoorlamp", "off"};
-            Put();
-            
-
+            if(GetLampStatus()) TurnOn();
+            else TurnOff();
         }
 
         // Update is called once per frame
@@ -65,7 +62,7 @@ namespace Script
         bool GetLampStatus()
         {
             Debug.Log("GetStatus");
-            var client = new RestClient {endPoint = "http://10.0.0.2:8080/SmartHouseApi/devices/1"};
+            var client = new RestClient {endPoint = "http://10.0.0.4:8080/SmartHouseApi/devices/1"};
             var strResponse = client.makeRequest();
             var json = JObject.Parse(strResponse);
             var lightStatus = json["deviceStatus"];
@@ -73,106 +70,48 @@ namespace Script
         }
         
         //TODO Connect to the server and Update the status
-        public void ChangeLamp()
+        public void UpdateLamp()
         {
             if (GetLampStatus())
             {
-                string[] values = {"1", "indoorlamp", "off"};
-                RunJavaRestClient(values);
+                RunJavaRestClient(true);
                 TurnOff();
             }
             else
             {
-                string[] values = {"1", "indoorlamp", "on"};
-                RunJavaRestClient(values);
+                RunJavaRestClient(false);
                 TurnOn();
             }
         }
 
 
-        private void RunJavaRestClient(string[] args)
+        private void RunJavaRestClient(bool status)
         {
-            var cmd = "java -jar C:\\Users\\ELHA0104\\Desktop\\target\\javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar 1 lamp off ";
-            var target = $" -jar C:\\Users\\ELHA0104\\Desktop\\target\\javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar {args[0]} {args[1]} {args[2]}";
-            /*
-            Debug.Log(target);
-            //Create process
-            var process = new ProcessStartInfo("java", target)
-            {
-                CreateNoWindow = true,
-                UseShellExecute = false,
+            var batFileOff = "C:\\Users\\ELHA0104\\Desktop\\device1TurnOff.bat";
+            var batFileOn = "C:\\Users\\ELHA0104\\Desktop\\device1TurnOn.bat";
+            
+            try {
+                Process myProcess = new Process();
+                myProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                myProcess.StartInfo.CreateNoWindow = true;
+                myProcess.StartInfo.UseShellExecute = false;
+                myProcess.StartInfo.FileName = "C:\\Windows\\system32\\cmd.exe";
+               
+                myProcess.StartInfo.Arguments = "/c" + (status? batFileOff: batFileOn);
+                myProcess.EnableRaisingEvents = true;
+                myProcess.Start();
+                myProcess.WaitForExit();
+                var exitCode = myProcess.ExitCode;
+                Debug.Log(exitCode);
+            } catch (Exception e){
                 
-
-            };
-            //strCommand is path and file name of command to run
-            //strCommandParameters are parameters to pass to program
-            //Set output of program to be written to process output stream
-            //Process.StartInfo.RedirectStandardOutput = true;
-            //Start the process
-            var proc = Process.Start(process);
-            if(proc== null)
-            {
-                throw new InvalidOperationException("??");
-            }
-
-            proc.WaitForExit();
-            int exitCode = proc.ExitCode;
-            proc.Close();
-            
-            
-            //Get program output
-            //string strOutput = pProcess.StandardOutput.ReadToEnd();
-            //Wait for process to finish
-            */
-            try
-            {
-                ProcessStartInfo p = new ProcessStartInfo("cmd", "/C " + cmd);
-                p.RedirectStandardOutput = true;
-                p.UseShellExecute = false;
-                p.CreateNoWindow = true;
-                Process proc = new Process();
-                proc.StartInfo = p;
-                proc.Start();
-                var result = proc.StandardOutput.ReadToEnd();
-                Debug.Log(result.Length);
-            }
-            catch (Exception e)
-            {
-                Debug.LogError(e);
+                Debug.Log(e);        
             }
            
             
 
         }
         
-        private RequestHelper currentRequest;
-        private readonly string basePath = "http://10.0.0.2:8080/SmartHouseApi";
-        public void Put(){
-
-            currentRequest = new RequestHelper {
-                Uri = basePath + "/devices/1", 
-                Body = new Post {
-                    title = "foo",
-                    body = "bar",
-                    userId = 1
-                },
-                Retries = 5,
-                RetrySecondsDelay = 1,
-                RetryCallback = (err, retries) => {
-                    Debug.Log (string.Format ("Retry #{0} Status {1}\nError: {2}", retries, err.StatusCode, err));
-                }
-            };
-            
-            Proyecto26.RestClient.Put<Post>(currentRequest, (err, res, body) => {
-                if (err != null){
-                    Debug.LogError(err.Message);
-                }
-                else {
-                    Debug.Log(err.Message);
-                }
-            });
-        }
-
         
         
         
