@@ -29,11 +29,8 @@ namespace Script
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _stopwatch.Start();
             yield return new WaitForSeconds(2);
-            
-
         }
 
-        
         private void OnTriggerEnter2D(Collider2D other)
         {
             active = true;
