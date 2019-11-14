@@ -357,6 +357,11 @@ namespace Proyecto26
             promise.Promisify(error, body);
         }
 
+        private string toString()
+        {
+            
+        }
+
     #endregion
     }
 }
