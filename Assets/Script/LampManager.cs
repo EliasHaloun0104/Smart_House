@@ -27,25 +27,10 @@ namespace Script
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
             //On Initialize
-            //if (GetLampStatus()) TurnOn();
-            //else TurnOff();
             if(GetLampStatus()) TurnOn();
             else TurnOff();
         }
-
-        // Update is called once per frame
-        void Update()
-        {
-            if (Input.GetKey(KeyCode.O))
-            {
-                TurnOn();
-            }
-
-            if (Input.GetKey(KeyCode.F))
-            {
-                TurnOff();
-            }
-        }
+        
 
         void TurnOn()
         {
@@ -104,16 +89,9 @@ namespace Script
                 var exitCode = myProcess.ExitCode;
                 Debug.Log(exitCode);
             } catch (Exception e){
-                
                 Debug.Log(e);        
             }
-           
             
-
         }
-        
-        
-        
-        
     }
 }
