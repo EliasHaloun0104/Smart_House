@@ -36,12 +36,14 @@ namespace Script
         
         private void OnTriggerEnter2D(Collider2D other)
         {
+            eegReader.EyeBlinking = 0;
             active = true;
             _spriteRenderer.color = _alternativeColor;
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
+            eegReader.EyeBlinking = 0;
             active = false;
             _spriteRenderer.color = _originalColor;
         }
