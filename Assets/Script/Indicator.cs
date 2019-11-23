@@ -1,18 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
-public class Indicator : MonoBehaviour
+namespace Script
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Indicator : MonoBehaviour
     {
+        [SerializeField] private GameObject hor;
+        [SerializeField] private GameObject ver;
+        // Start is called before the first frame update
+        void Start()
+        {
         
-    }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+            transform.position = new Vector3(hor.transform.position.x, ver.transform.position.y,0);
+        }
     }
 }
