@@ -2,43 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Slider.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Slider.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Background2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Background2Ver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Background2Ver.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Font/Anton OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Font/Anton OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Font/Anton SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Font/Anton SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Font/Anton.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Font/Anton.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/col.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/col.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Area.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Area.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/cursor2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/cursor2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EegReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EegReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Indicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Indicator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,6 +53,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Device.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Font/CANDARAI.TTF.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Indicator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/RestClient.cs" root0="FORCE_HIGHLIGHTING" />
@@ -95,13 +81,16 @@
         <option value="$PROJECT_DIR$/Assets/Script/LineGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Customer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Device.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/RestClient.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Program.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
+        <option value="$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Indicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
       </list>
     </option>
   </component>
@@ -175,6 +164,7 @@
       <workItem from="1573648354438" duration="5335000" />
       <workItem from="1573730255430" duration="1849000" />
       <workItem from="1574450054000" duration="570000" />
+      <workItem from="1574497500089" duration="4234000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -295,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573669826367</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Create new Scene, Font">
+      <created>1574497671951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574497671951</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +331,8 @@
     <MESSAGE value="Update Java Project 2" />
     <MESSAGE value="Update visual issue" />
     <MESSAGE value="Update Layout &amp; Code for Lamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Layout &amp; Code for Lamp" />
+    <MESSAGE value="Create new Scene, Font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new Scene, Font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
