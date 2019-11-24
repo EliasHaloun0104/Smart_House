@@ -9,9 +9,9 @@ namespace Script
     public class Area : MonoBehaviour
     {
         
-        [SerializeField] private EegReader eegReader;
         [SerializeField] private LampManager lamp;
         [SerializeField] private bool active;
+        private int eyeBlinking;
 
         private Stopwatch _stopwatch;
         
@@ -33,31 +33,31 @@ namespace Script
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            eegReader.EyeBlinking = 0;
+            eyeBlinking = 0;
             active = true;
             _spriteRenderer.color = _alternativeColor;
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            eegReader.EyeBlinking = 0;
+            eyeBlinking = 0;
             active = false;
             _spriteRenderer.color = _originalColor;
         }
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (eegReader.EyeBlinking > 55)
+            if (eyeBlinking > 55)
             {
                 if (_stopwatch.IsRunning)
                 {
-                    eegReader.EyeBlinking = 0;
+                    eyeBlinking = 0;
                 }
                 else
                 {
                      _stopwatch.Start();
                      lamp.UpdateLamp();
-                     eegReader.EyeBlinking = 0;
+                     eyeBlinking = 0;
                 }
                 
             }

@@ -56,11 +56,13 @@
         </e>
         <e p="Script" t="Include">
           <e p="Area.cs" t="Include" />
+          <e p="BlinksManager.cs" t="Include" />
           <e p="cursor.cs" t="Include" />
           <e p="Device.cs" t="Include" />
           <e p="EegReader.cs" t="Include" />
           <e p="EnhancedArea.cs" t="Include" />
           <e p="Indicator.cs" t="Include" />
+          <e p="Instruction.cs" t="Include" />
           <e p="LampManager.cs" t="Include" />
           <e p="RestClient.cs" t="Include" />
         </e>

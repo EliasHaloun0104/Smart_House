@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.IO;
 using System.Net.Sockets;
 using System.Text;
@@ -8,19 +7,34 @@ using Newtonsoft.Json.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Random = UnityEngine.Random;
 
 namespace Script
 {
     public class EegReader : MonoBehaviour
     {
-        [SerializeField] private Slider sliderVer;
+        private enum Mode
+        {
+            Horizontal , Vertical, NonMode,
+        }
+        [Header("Connection state")]
+        [SerializeField] private TextMeshProUGUI info;
+
+        [Header("Slider")] 
         [SerializeField] private Slider sliderHor;
+        [SerializeField] private Slider sliderVer;
+
+        [Header("Mode")] [SerializeField] private Mode mode;
         
-        //The output data
-        [SerializeField] private int attention;
-        [SerializeField] private int meditation;
-        [SerializeField] private int eyeBlinking;
+        [Header("Output Data")]
+        [SerializeField] private int attentionY;
+        [SerializeField] private int attentionX;
+        [SerializeField] private BlinksManager eyeBlinking;
+
+        [Header("Indicator")]
+        [SerializeField] private Transform hor;
+        [SerializeField] private Transform ver;
+        [SerializeField] private GameObject indicator;
+        
         
         //Internal instance for this class
         private TcpClient _client;
@@ -32,14 +46,21 @@ namespace Script
 
         // Start is called before the first frame update
 
-        private void Awake()
+
+        private IEnumerator Start()
         {
-            StartCoroutine(Reading());
+            mode = Mode.NonMode;
+            info.SetText("Connecting the headset...");
+            yield return new WaitForSeconds(1);
+            var isConnected = Connect();
+            info.SetText(isConnected? "Headset connected successfully": "Failed to connect headset");
+            yield return new WaitForSeconds(2);
+            if (isConnected) StartCoroutine(Reading());
         }
-        
-        //This method used to communicate w the real EEG Connecter
-        private void Connect()
+   
+        private bool Connect()
         {
+            
             _buffer = new byte[2048];
             // Building command to enable JSON output from ThinkGear Connector (TGC)
             _myWriteBuffer = Encoding.ASCII.GetBytes(@"{""enableRawOutput"": true,
@@ -53,15 +74,11 @@ namespace Script
                 if(_stream.CanWrite) {
                     _stream.Write(_myWriteBuffer, 0, _myWriteBuffer.Length);
                 }
-                
-                if(_stream.CanRead) {
-                    Debug.Log("reading bytes");
-                    // This is a special thread to read data continuously 
-                    StartCoroutine(Reading());
-                }
+                return _stream.CanRead;
             }
             catch (SocketException)
             {
+                return false;
             }
         }
         
@@ -81,36 +98,71 @@ namespace Script
                         {
                             var json = JObject.Parse(temp);
                             var eSense = json["eSense"];
-                            attention = (int) eSense["attention"];
-                            sliderHor.value = attention;
-                            meditation = (int) eSense["meditation"];
-                            sliderVer.value = meditation;
-                        }
-                        catch (JsonException)
-                        {
-                        }
+                            var attention = (int) eSense["attention"];
+                            switch (mode)
+                            {
+                                case Mode.Horizontal:
+                                    attentionX = attention;
+                                    sliderHor.value = attentionX;
+                                    break;
+                                case Mode.Vertical:
+                                    attentionY = attention;
+                                    sliderVer.value = attentionY;
+                                    break;
+                                case Mode.NonMode:
+                                    //Nothing 
+                                    break;
+                            }
+                        }catch(JsonException){}
                     }
-                    else if (temp.Contains("blinkStrength"))
+                    else
                     {
-                        var json = JObject.Parse(temp);
-                        eyeBlinking = (int) json["blinkStrength"];
-                        yield return new WaitForSeconds(2);
-                        eyeBlinking = 0;
+                        try
+                        {
+                            if (temp.Contains("blinkStrength"))
+                            {
+                                var json = JObject.Parse(temp);
+                                var blinking = (int) json["blinkStrength"];
+                                if(blinking>55) eyeBlinking.Add();
+                            }
+                        }
+                        catch (JsonException){}
                     }
                 }
-                //yield return new WaitForSeconds(0.2f); // Read from device every 0.2 sec
+                yield return new WaitForSeconds(0.4f);
             }
         }
 
         public override string ToString()
         {
-            return $"Attention: {attention}, Meditation {meditation}, Blink: {eyeBlinking}";
+            return $"Attention: {attentionY}, Blink: {eyeBlinking}";
         }
 
-        public int EyeBlinking
+        private void Update()
         {
-            get => eyeBlinking;
-            set => eyeBlinking = value;
+            indicator.transform.position = Vector3.MoveTowards(
+                indicator.transform.position,
+                new Vector3(hor.transform.position.x, ver.transform.position.y
+                    ,0),
+                Time.deltaTime);
+
+            if (mode == Mode.Horizontal && eyeBlinking.IsTwoBlink())
+            {
+                mode = Mode.Vertical;
+            }
+
+            if (mode == Mode.Vertical)
+            {
+                if(eyeBlinking.IsOneBlink()) mode = Mode.Horizontal;
+                if(eyeBlinking.IsTwoBlink()) mode = Mode.NonMode;
+            }
+
+            if (mode == Mode.NonMode && eyeBlinking.IsTwoBlink())
+            {
+                mode = Mode.Vertical;
+            }
         }
+
+        
     }
 }
