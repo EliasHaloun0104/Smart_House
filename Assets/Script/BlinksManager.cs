@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.Diagnostics;
+using TMPro;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 namespace Script
 {
@@ -11,39 +11,47 @@ namespace Script
         
         [SerializeField] private int _blinkCounter;
         private Stopwatch _stopwatch;
-        [SerializeField] private bool _oneBlink;
-        [SerializeField] private bool _twoBlink;
+        [SerializeField] private bool oneBlink;
+        [SerializeField] private bool twoBlink;
+        [SerializeField] private TextMeshProUGUI blinkInfo;
+        private long _waitTime;
         
         private IEnumerator Start()
         {
             _stopwatch = new Stopwatch();
-            _oneBlink = false;
-            _twoBlink = false;
+            _waitTime = 1000L;
+            oneBlink = false;
+            twoBlink = false;
             while (true)
             {
                 if (_blinkCounter == 1)
                 {
-                    Debug.Log($"BlinkCounter = {_blinkCounter}");
+                    blinkInfo.SetText("One blink detected...\nWaiting...");
                     _stopwatch.Start();
-                    yield return new WaitUntil(()=> _stopwatch.ElapsedMilliseconds>1650L);
+                    yield return new WaitUntil(()=> _stopwatch.ElapsedMilliseconds>_waitTime);
                     _stopwatch.Reset();
                     if (_blinkCounter == 2)
                     {
                         _blinkCounter = 0;
-                        _twoBlink = true;
-                        Debug.Log($"twoBlink detected");
+                        twoBlink = true;
+                        blinkInfo.SetText("Two Blinks Confirmed");
                         yield return new WaitForSeconds(0.4f);
-                        _twoBlink = false;
+                        twoBlink = false;
                     }else if (_blinkCounter == 1)
                     {
                         _blinkCounter = 0;
-                        _oneBlink = true;
-                        Debug.Log($"OneBlink detected");
+                        oneBlink = true;
+                        blinkInfo.SetText("One Blink Confirmed");
                         yield return new WaitForSeconds(0.4f);
-                        _oneBlink = false;
+                        oneBlink = false;
                     }
                 }
-                yield return new WaitForSeconds(0.3f);
+                else
+                {
+                    _blinkCounter = 0;
+                    blinkInfo.SetText("No Blink detected..");
+                }
+                yield return new WaitForSeconds(0.2f);
             }
             
         }
@@ -57,16 +65,24 @@ namespace Script
 
         public bool IsOneBlink()
         {
-            if (!_oneBlink) return false;
-            _oneBlink = false;
+            if (!oneBlink) return false;
+            oneBlink = false;
             return true;
         }
         
         public bool IsTwoBlink()
         {
-            if (!_twoBlink) return false;
-            _twoBlink = false;
+            if (!twoBlink) return false;
+            twoBlink = false;
             return true;
+        }
+
+        private void Update()
+        {
+            if (_stopwatch.IsRunning)
+            {
+                blinkInfo.SetText($"One blink detected...\nWaiting...{_waitTime - _stopwatch.ElapsedMilliseconds}");
+            }
         }
     }
 }

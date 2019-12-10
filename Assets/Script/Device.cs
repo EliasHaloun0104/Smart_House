@@ -1,5 +1,9 @@
 namespace Script
 {
+    //Device List
+    /*
+     * indoor Light1, light2, temprate, curtain, 
+     */
     public class Device
     {
         private string deviceId, deviceName, deviceStatus;

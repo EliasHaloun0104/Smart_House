@@ -12,30 +12,25 @@ namespace Script
 {
     public class EegReader : MonoBehaviour
     {
-        private enum Mode
-        {
-            Horizontal , Vertical, NonMode,
-        }
         [Header("Connection state")]
         [SerializeField] private TextMeshProUGUI info;
 
         [Header("Slider")] 
         [SerializeField] private Slider sliderHor;
-        [SerializeField] private Slider sliderVer;
-
-        [Header("Mode")] [SerializeField] private Mode mode;
         
         [Header("Output Data")]
-        [SerializeField] private int attentionY;
-        [SerializeField] private int attentionX;
+        [SerializeField] private int attention;
         [SerializeField] private BlinksManager eyeBlinking;
+        
 
         [Header("Indicator")]
         [SerializeField] private Transform hor;
-        [SerializeField] private Transform ver;
         [SerializeField] private GameObject indicator;
-        
-        
+
+        [SerializeField] private Camera mainCamera;
+        [SerializeField] private Transform[] points; 
+        private int _jump = 0;
+
         //Internal instance for this class
         private TcpClient _client;
         private Stream _stream;
@@ -46,7 +41,7 @@ namespace Script
 
         // Start is called before the first frame update
 
-
+/*
         private IEnumerator Start()
         {
             mode = Mode.NonMode;
@@ -56,7 +51,7 @@ namespace Script
             info.SetText(isConnected? "Headset connected successfully": "Failed to connect headset");
             yield return new WaitForSeconds(2);
             if (isConnected) StartCoroutine(Reading());
-        }
+        }*/
    
         private bool Connect()
         {
@@ -98,21 +93,8 @@ namespace Script
                         {
                             var json = JObject.Parse(temp);
                             var eSense = json["eSense"];
-                            var attention = (int) eSense["attention"];
-                            switch (mode)
-                            {
-                                case Mode.Horizontal:
-                                    attentionX = attention;
-                                    sliderHor.value = attentionX;
-                                    break;
-                                case Mode.Vertical:
-                                    attentionY = attention;
-                                    sliderVer.value = attentionY;
-                                    break;
-                                case Mode.NonMode:
-                                    //Nothing 
-                                    break;
-                            }
+                            attention = (int) eSense["attention"];
+                            sliderHor.value = attention;
                         }catch(JsonException){}
                     }
                     else
@@ -132,37 +114,26 @@ namespace Script
                 yield return new WaitForSeconds(0.4f);
             }
         }
-
-        public override string ToString()
-        {
-            return $"Attention: {attentionY}, Blink: {eyeBlinking}";
-        }
-
+        
         private void Update()
         {
             indicator.transform.position = Vector3.MoveTowards(
                 indicator.transform.position,
-                new Vector3(hor.transform.position.x, ver.transform.position.y
-                    ,0),
-                Time.deltaTime);
+                 hor.transform.position,
+                6*Time.deltaTime);
 
-            if (mode == Mode.Horizontal && eyeBlinking.IsTwoBlink())
+            if (eyeBlinking.IsTwoBlink())
             {
-                mode = Mode.Vertical;
+                _jump++;
+                if (_jump == points.Length) _jump = 0;
+                mainCamera.transform.position = points[_jump].position;
             }
-
-            if (mode == Mode.Vertical)
+            
+            //TODO delete this it simulate eyeBlink
+            if (Input.GetKeyDown(KeyCode.R))
             {
-                if(eyeBlinking.IsOneBlink()) mode = Mode.Horizontal;
-                if(eyeBlinking.IsTwoBlink()) mode = Mode.NonMode;
-            }
-
-            if (mode == Mode.NonMode && eyeBlinking.IsTwoBlink())
-            {
-                mode = Mode.Vertical;
+                eyeBlinking.Add();
             }
         }
-
-        
     }
 }

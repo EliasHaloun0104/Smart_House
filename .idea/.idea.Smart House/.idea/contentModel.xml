@@ -61,7 +61,6 @@
           <e p="Device.cs" t="Include" />
           <e p="EegReader.cs" t="Include" />
           <e p="EnhancedArea.cs" t="Include" />
-          <e p="Indicator.cs" t="Include" />
           <e p="Instruction.cs" t="Include" />
           <e p="LampManager.cs" t="Include" />
           <e p="RestClient.cs" t="Include" />

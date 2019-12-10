@@ -17,9 +17,9 @@ namespace Script
             _news = new[]
             {
                 "Attention level increases when you focus on a single thought or an external object.",
-                "Double blink move between x axis , y axis and quit mode ",
+                "Double blink move the indicator along y axis.",
                 "Try to blink as hard as you can in order to differentiate from your normal blink.",
-                "blink once or twice to change status..."
+                "blink once to change status of device."
             };
             StartCoroutine(ChangeNews());
 
@@ -30,8 +30,7 @@ namespace Script
             var i = 0;
             while (true)
             {
-                _text.SetText(_news[i]);
-                i++;
+                _text.SetText(_news[i++]);
                 if (i == _news.Length) i = 0;
                 yield return new WaitForSeconds(4);
             }

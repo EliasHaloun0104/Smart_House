@@ -7,10 +7,9 @@ namespace Script
 {
     public class EnhancedArea: MonoBehaviour
     {
-        
-        enum Device
+        private enum Device
         {
-            LightOne, Curtain, Door, LightTwo, Temperature, Music
+            Relax, LightOne, Door, LightTwo, Temperature, Music
         }
         private TextMeshProUGUI _text;
         private VertexJitter _vertexJitter;
@@ -22,7 +21,7 @@ namespace Script
         {
             _text = GetComponent<TextMeshProUGUI>();
             _vertexJitter = GetComponent<VertexJitter>();
-            _text.SetText(device.ToString());
+            //_text.SetText(device.ToString());
         }
 
         private void OnTriggerEnter2D(Collider2D other)
