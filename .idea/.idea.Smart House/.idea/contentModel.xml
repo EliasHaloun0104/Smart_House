@@ -59,6 +59,10 @@
           <e p="BlinksManager.cs" t="Include" />
           <e p="cursor.cs" t="Include" />
           <e p="Device.cs" t="Include" />
+          <e p="Devices" t="Include">
+            <e p="DeviceIndex.cs" t="Include" />
+            <e p="DeviceManager.cs" t="Include" />
+          </e>
           <e p="EegReader.cs" t="Include" />
           <e p="EnhancedArea.cs" t="Include" />
           <e p="Instruction.cs" t="Include" />

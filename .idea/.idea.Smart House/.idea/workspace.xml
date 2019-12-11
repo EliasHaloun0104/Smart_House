@@ -2,78 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/twilio.5.35.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/twilio.5.35.1.nupkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Extra.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Extra.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Logging.1.1.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Logging.1.1.2/Microsoft.IdentityModel.Logging.1.1.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Logging.1.1.2/lib/net451/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Logging.1.1.2/lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Tokens.5.1.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Tokens.5.1.2/Microsoft.IdentityModel.Tokens.5.1.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Tokens.5.1.2/lib/net451/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Tokens.5.1.2/lib/net451/Microsoft.IdentityModel.Tokens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Tokens.5.1.2/lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Microsoft.IdentityModel.Tokens.5.1.2/lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/Newtonsoft.Json.10.0.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/netstandard1.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/netstandard1.3/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Newtonsoft.Json.10.0.1/tools/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.IdentityModel.Tokens.Jwt.5.1.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.IdentityModel.Tokens.Jwt.5.1.2/System.IdentityModel.Tokens.Jwt.5.1.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.IdentityModel.Tokens.Jwt.5.1.2/lib/net451/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.IdentityModel.Tokens.Jwt.5.1.2/lib/net451/System.IdentityModel.Tokens.Jwt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.IdentityModel.Tokens.Jwt.5.1.2/lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.IdentityModel.Tokens.Jwt.5.1.2/lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Area.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Area.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/BlinksManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/BlinksManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Device.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Device.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EegReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EegReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Indicator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Indicator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Instruction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Instruction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Drawing.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/Newtonsoft.Json.6.0.4.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/Newtonsoft.Json.6.0.4/tools/install.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -135,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Font/Anton.ttf.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Font/Anton OFL.txt.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Font/Anton SDF.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,20 +85,24 @@
         <option value="$PROJECT_DIR$/Assets/Script/cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Customer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/RestClient.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Program.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
         <option value="$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Indicator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/NewsLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/DataManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Device.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Instruction.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/BlinksManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SmsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/HttpRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/Lamp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/RestClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
       </list>
     </option>
   </component>
@@ -234,7 +177,7 @@
       <workItem from="1573730255430" duration="1849000" />
       <workItem from="1574450054000" duration="570000" />
       <workItem from="1574497500089" duration="45686000" />
-      <workItem from="1575978606877" duration="1462000" />
+      <workItem from="1575978606877" duration="6897000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -383,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574626888742</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update Interface &amp; Add Twilio Support">
+      <created>1575990050076</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575990050076</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +376,8 @@
     <MESSAGE value="Fix Font Problem, Create &amp; Import class &amp; Image" />
     <MESSAGE value="Enhanced EegReader" />
     <MESSAGE value="Add Music Test, Add BlinkManager, Update EegReader &amp; EnhancedArea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Music Test, Add BlinkManager, Update EegReader &amp; EnhancedArea" />
+    <MESSAGE value="Update Interface &amp; Add Twilio Support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Interface &amp; Add Twilio Support" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

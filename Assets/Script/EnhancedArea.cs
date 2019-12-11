@@ -1,4 +1,5 @@
 using System;
+using Script.Devices;
 using TMPro;
 using TMPro.Examples;
 using UnityEngine;
@@ -7,21 +8,20 @@ namespace Script
 {
     public class EnhancedArea: MonoBehaviour
     {
-        private enum Device
-        {
-            Relax, LightOne, Door, LightTwo, Temperature, Music
-        }
+        
         private TextMeshProUGUI _text;
         private VertexJitter _vertexJitter;
         [SerializeField] private BlinksManager blinkManager;
         [SerializeField] private EegReader eegReader;
-        [SerializeField] private Device device;
-
+        [SerializeField] private DeviceIndex deviceIndex;
+        
         private void Start()
         {
             _text = GetComponent<TextMeshProUGUI>();
             _vertexJitter = GetComponent<VertexJitter>();
-            //_text.SetText(device.ToString());
+            var tempTxt = DeviceManager.DeviceText(deviceIndex);
+            if(tempTxt!=null)
+                _text.SetText(tempTxt);
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -40,7 +40,9 @@ namespace Script
         {
             if (blinkManager.IsOneBlink())
             {
-                //Change Device status
+                var state = DeviceManager.Get(deviceIndex);
+                _text.SetText(state);
+                DeviceManager.Put(deviceIndex, int.Parse(state));
             }
         }
     }
