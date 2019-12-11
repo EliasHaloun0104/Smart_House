@@ -49,9 +49,9 @@ namespace Script.Devices
                 case DeviceIndex.Power:
                     return "Power";
                 case DeviceIndex.FireAlarm:
-                    return "FireAlarm";
+                    return "Fire Alarm";
                 case DeviceIndex.DoorAlarm:
-                    return "FireAlarm";
+                    return "Door Alarm";
                 case DeviceIndex.Fan:
                     return "Fan";
                 case DeviceIndex.WaterLeakage:

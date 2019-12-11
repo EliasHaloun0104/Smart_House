@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Script.Devices
 {
-    public static class DeviceManager
+    public static class ServerConnection
     {
         public static string Get(DeviceIndex deviceIndex)
         {
@@ -25,10 +25,14 @@ namespace Script.Devices
                 //Update server by 0 = off or 100 = on
                 case DeviceIndex.IndoorLamp:
                 case DeviceIndex.OutdoorLamp:
+                    status = status == 0 ? 100 : 0; 
+                    //TODO Update on server
+                     break;
                 case DeviceIndex.Timer1:
                 case DeviceIndex.Timer2:
                     status = status == 0 ? 100 : 0;
                     //TODO Update on server
+                    //TODO Set Fixed timers
 
                     break;
                 //Update server by between 0=off &  255= on (high speed)
@@ -40,11 +44,10 @@ namespace Script.Devices
                     break;
                 //Update On Local Machine 
                 case DeviceIndex.Music:
+                    
                     break;
                 case DeviceIndex.Call112:
-                    break;
                 case DeviceIndex.Call1177:
-                    break;
                 case DeviceIndex.UnderContraction:
                     //Do nothing
                     break;

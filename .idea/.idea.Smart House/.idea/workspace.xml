@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EegReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras.meta" root0="FORCE_HIGHLIGHTING" />
@@ -96,9 +101,11 @@
         <option value="$PROJECT_DIR$/Assets/Script/Devices/Lamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/RestClient.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" />
       </list>
     </option>
   </component>
@@ -173,7 +180,7 @@
       <workItem from="1573730255430" duration="1849000" />
       <workItem from="1574450054000" duration="570000" />
       <workItem from="1574497500089" duration="45686000" />
-      <workItem from="1575978606877" duration="8725000" />
+      <workItem from="1575978606877" duration="12348000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -336,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576049108160</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update Index, move device text to another class">
+      <created>1576051011093</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576051011093</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +395,8 @@
     <MESSAGE value="Add Music Test, Add BlinkManager, Update EegReader &amp; EnhancedArea" />
     <MESSAGE value="Update Interface &amp; Add Twilio Support" />
     <MESSAGE value="Set Device Index Class, Update Related" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set Device Index Class, Update Related" />
+    <MESSAGE value="Update Index, move device text to another class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Index, move device text to another class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

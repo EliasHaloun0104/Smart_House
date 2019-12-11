@@ -40,9 +40,9 @@ namespace Script
         {
             if (blinkManager.IsOneBlink())
             {
-                var state = DeviceManager.Get(deviceIndex);
+                var state = ServerConnection.Get(deviceIndex);
                 _text.SetText(state);
-                DeviceManager.Put(deviceIndex, int.Parse(state));
+                ServerConnection.Put(deviceIndex, int.Parse(state));
             }
         }
     }
