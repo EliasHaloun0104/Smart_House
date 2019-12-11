@@ -14,53 +14,6 @@ namespace Script.Devices
             var lightStatus = json["deviceStatus"];
             return lightStatus.ToString();
         }
-
-        public static string DeviceText(DeviceIndex deviceIndex)
-        {
-            // ReSharper disable once SwitchStatementMissingSomeCases
-            switch (deviceIndex)
-            {
-                case DeviceIndex.Relax:
-                    return "Relax";
-                case DeviceIndex.IndoorLamp:
-                    return "Indoor Lamp";
-                case DeviceIndex.OutdoorLamp:
-                    return "Outdoor Lamp";
-                case DeviceIndex.IndoorTemp:
-                    return "Indoor Temp";
-                case DeviceIndex.OutdoorTemp:
-                    return "Outdoor Temp";
-                case DeviceIndex.Radiator:
-                    return "Radiator";
-                case DeviceIndex.Power:
-                    return "Power";
-                case DeviceIndex.FireAlarm:
-                    return "FireAlarm";
-                case DeviceIndex.DoorAlarm:
-                    return "FireAlarm";
-                case DeviceIndex.Fan:
-                    return "Fan";
-                case DeviceIndex.WaterLeakage:
-                    return "Water Leakage";
-                case DeviceIndex.Stove:
-                    return "Stove";;
-                case DeviceIndex.Window:
-                    return "Window";;
-                case DeviceIndex.Timer1:
-                    return "Timer 1";;
-                case DeviceIndex.Timer2:
-                    return "Timer 2";;
-                case DeviceIndex.LightSensor:
-                    return "Light Sensor";
-                case DeviceIndex.Music:
-                    return "Play Music";
-                case DeviceIndex.Call112:
-                    return "Call 112";
-                case DeviceIndex.Call1177:
-                    return "Cal l1177";
-            }
-            return null;
-        }
         
 
         public static void Put(DeviceIndex deviceIndex, int status)
@@ -69,18 +22,23 @@ namespace Script.Devices
             // ReSharper disable once SwitchStatementMissingSomeCases
             switch (deviceIndex)
             {
+                //Update server by 0 = off or 100 = on
                 case DeviceIndex.IndoorLamp:
-                    break;
                 case DeviceIndex.OutdoorLamp:
-                    break;
-                case DeviceIndex.Radiator:
-                    break;
-                case DeviceIndex.Fan:
-                    break;
                 case DeviceIndex.Timer1:
-                    break;
                 case DeviceIndex.Timer2:
+                    status = status == 0 ? 100 : 0;
+                    //TODO Update on server
+
                     break;
+                //Update server by between 0=off &  255= on (high speed)
+                case DeviceIndex.Radiator:
+                case DeviceIndex.Fan:
+                    status = status + 51 <= 255 ? status + 51 : 0;
+                    //TODO Update on server
+                    
+                    break;
+                //Update On Local Machine 
                 case DeviceIndex.Music:
                     break;
                 case DeviceIndex.Call112:
@@ -88,6 +46,7 @@ namespace Script.Devices
                 case DeviceIndex.Call1177:
                     break;
                 case DeviceIndex.UnderContraction:
+                    //Do nothing
                     break;
             }
         }

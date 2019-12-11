@@ -19,7 +19,7 @@ namespace Script
         {
             _text = GetComponent<TextMeshProUGUI>();
             _vertexJitter = GetComponent<VertexJitter>();
-            var tempTxt = DeviceManager.DeviceText(deviceIndex);
+            var tempTxt = deviceIndex.GetText();
             if(tempTxt!=null)
                 _text.SetText(tempTxt);
         }
