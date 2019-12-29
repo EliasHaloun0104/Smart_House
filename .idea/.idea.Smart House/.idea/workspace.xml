@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARA.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARA.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAB.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAB.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAI.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAI.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAL.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAL.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARALI.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARALI.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAZ.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAZ.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/twilio.5.35.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/twilio.5.35.1.nupkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/cursor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ae/aec32c434c7f66f41923a6c8663a17f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ae/aec32c434c7f66f41923a6c8663a17f3.info" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +70,13 @@
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Instruction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main Scene.unity.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/BlinksManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Font/CANDARAI.TTF.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/User.cs" root0="FORCE_HIGHLIGHTING" />
@@ -180,7 +195,9 @@
       <workItem from="1573730255430" duration="1849000" />
       <workItem from="1574450054000" duration="570000" />
       <workItem from="1574497500089" duration="45686000" />
-      <workItem from="1575978606877" duration="12348000" />
+      <workItem from="1575978606877" duration="13590000" />
+      <workItem from="1577050534352" duration="2257000" />
+      <workItem from="1577619286946" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -350,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576051011093</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add Readonly Device">
+      <created>1576054621908</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576054621908</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +420,8 @@
     <MESSAGE value="Update Interface &amp; Add Twilio Support" />
     <MESSAGE value="Set Device Index Class, Update Related" />
     <MESSAGE value="Update Index, move device text to another class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Index, move device text to another class" />
+    <MESSAGE value="Add Readonly Device" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Readonly Device" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
