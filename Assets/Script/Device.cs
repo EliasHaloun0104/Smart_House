@@ -1,45 +1,21 @@
 namespace Script
 {
-    //Device List
-    /*
-     * indoor Light1, light2, temprate, curtain, 
-     */
     public class Device
     {
-        private string deviceId, deviceName, deviceStatus;
-        
-        public Device() {}
-
-        public Device(string deviceId, string deviceName, string deviceStatus)
-        {
-            this.deviceId = deviceId;
-            this.deviceName = deviceName;
-            this.deviceStatus = deviceStatus;
-        }
-
-        public string DeviceId
-        {
-            get => deviceId;
-            set => deviceId = value;
-        }
-
-        public string DeviceName
-        {
-            get => deviceName;
-            set => deviceName = value;
-        }
-
-        public string DeviceStatus
-        {
-            get => deviceStatus;
-            set => deviceStatus = value;
-        }
-
-        public override string ToString()
-        {
-            return "Device Id: " + deviceId + "\n" +
-                   "Device Name: " + deviceName + "\n" +
-                   "Device Status " + deviceStatus + "\n";
-        }
+        public int indoorLamp { get; set; } // value 0 = off, value 1 = on
+        public int outdoorLamp { get; set; } // value 0 = off, value 1 = on
+        public int indoorTemp { get; set; } // returns temp in celsius
+        public int outdoorTemp { get; set; } // returns temp in celsius
+        public int radiator { get; set; } // value 0 = off, value 1 = on
+        public int power { get; set; } // ??
+        public int fireAlarm { get; set; } // value 0 = off, value 1 = on
+        public int doorAlarm { get; set; } // value 0 = off, value 1 = on
+        public int fan { get; set; } // value 0 = off, value 1 - 255 fan speed
+        public int waterLeakage { get; set; } // value 0 = off, value 1 = on
+        public int stove { get; set; } // value 0 = off, value 1 = on
+        public int window { get; set; } // value 0 = off, value 1 = on
+        public int timer1 { get; set; } // value 0 = off, value 1 = on
+        public int timer2 { get; set; } // value 0 = off, value 1 = on
+        public int lightSensor { get; set; } // value 0 = night, value 1 = day
     }
 }
