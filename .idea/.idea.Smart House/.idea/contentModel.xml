@@ -13,17 +13,6 @@
           <e p="Anton OFL.txt" t="Include" />
         </e>
         <e p="RestClient" t="Include">
-          <e p="DemoScene" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="MainScript.cs" t="Include" />
-              <e p="Model" t="Include">
-                <e p="Photo.cs" t="Include" />
-                <e p="Post.cs" t="Include" />
-                <e p="Todo.cs" t="Include" />
-                <e p="User.cs" t="Include" />
-              </e>
-            </e>
-          </e>
           <e p="Packages" t="Include">
             <e p="Proyecto26.RestClient" t="Include">
               <e p="Helpers" t="Include">
@@ -66,7 +55,6 @@
           <e p="EegReader.cs" t="Include" />
           <e p="EnhancedArea.cs" t="Include" />
           <e p="Instruction.cs" t="Include" />
-          <e p="LampManager.cs" t="Include" />
           <e p="RestClient.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

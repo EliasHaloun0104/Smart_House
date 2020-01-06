@@ -52,7 +52,7 @@ namespace Script.Devices
         {
             //var temp = ServerConnection.Get(deviceIndex);
             //var read = int.Parse(temp);
-            text.SetText($"{deviceIndex.GetText()}:{0}");
+            text.SetText($"{deviceIndex.GetText()}: {0}");
         }
         
         

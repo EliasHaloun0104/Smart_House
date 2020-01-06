@@ -2,33 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARA.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARA.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAB.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAB.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAI.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAI.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAL.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAL.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARALI.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARALI.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAZ.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/CANDARAZ.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/twilio.5.35.1.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/twilio.5.35.1.nupkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Main.class.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Manager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Manager/DeviceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Manager/DeviceManager.class.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Model/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/classes/Model/Device.class.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT-jar-with-dependencies.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/javaRestClient-1.0-SNAPSHOT.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-archiver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-archiver/pom.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/MainScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/MainScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Photo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Photo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Post.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Post.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Todo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Todo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/User.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/cursor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/cursor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/ae/aec32c434c7f66f41923a6c8663a17f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/ae/aec32c434c7f66f41923a6c8663a17f3.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LampManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LampManager.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +79,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnhancedArea.cs.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Device.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Area.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/LampManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sprite/col.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
@@ -75,11 +95,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/BlinksManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RestClient/DemoScene/Scripts/Model/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EegReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script.meta" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +119,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Customer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Program.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
         <option value="$PROJECT_DIR$/Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Indicator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/NewsLine.cs" />
@@ -117,9 +133,10 @@
         <option value="$PROJECT_DIR$/Assets/Script/RestClient.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Area.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Devices/DeviceIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" />
       </list>
     </option>
@@ -197,7 +214,8 @@
       <workItem from="1574497500089" duration="45686000" />
       <workItem from="1575978606877" duration="13590000" />
       <workItem from="1577050534352" duration="2257000" />
-      <workItem from="1577619286946" duration="732000" />
+      <workItem from="1577619286946" duration="2059000" />
+      <workItem from="1578300887597" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -374,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576054621908</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Deleting &amp; Cleaning">
+      <created>1577620159831</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1577620159831</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +446,8 @@
     <MESSAGE value="Set Device Index Class, Update Related" />
     <MESSAGE value="Update Index, move device text to another class" />
     <MESSAGE value="Add Readonly Device" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Readonly Device" />
+    <MESSAGE value="Deleting &amp; Cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting &amp; Cleaning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
