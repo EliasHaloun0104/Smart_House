@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Diagnostics;
+using Script.Devices;
 using TMPro;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 namespace Script
 {
@@ -15,6 +17,16 @@ namespace Script
         [SerializeField] private bool twoBlink;
         [SerializeField] private TextMeshProUGUI blinkInfo;
         private long _waitTime;
+
+        private EnhancedArea _enhancedArea;
+
+        public void EnterArea(EnhancedArea enhancedArea)
+        {
+            _enhancedArea = enhancedArea;
+        }public void ExitArea()
+        {
+            _enhancedArea = null;
+        }
         
         private IEnumerator Start()
         {
@@ -34,15 +46,18 @@ namespace Script
                     {
                         _blinkCounter = 0;
                         twoBlink = true;
-                        blinkInfo.SetText("Two Blinks Confirmed");
                         yield return new WaitForSeconds(0.4f);
                         twoBlink = false;
                     }else if (_blinkCounter == 1)
                     {
                         _blinkCounter = 0;
                         oneBlink = true;
+                        if (_enhancedArea!=null)
+                        {
+                            _enhancedArea.UpdateStatus();
+                        }
                         blinkInfo.SetText("One Blink Confirmed");
-                        yield return new WaitForSeconds(0.4f);
+                        yield return new WaitForSeconds(0.1f);
                         oneBlink = false;
                     }
                 }
@@ -65,15 +80,20 @@ namespace Script
 
         public bool IsOneBlink()
         {
-            if (!oneBlink) return false;
-            oneBlink = false;
-            return true;
+            if (oneBlink)
+            {
+                oneBlink = false;
+                return true;
+            }
+            return false;
+            
         }
         
         public bool IsTwoBlink()
         {
             if (!twoBlink) return false;
             twoBlink = false;
+            _blinkCounter = 0;
             return true;
         }
 

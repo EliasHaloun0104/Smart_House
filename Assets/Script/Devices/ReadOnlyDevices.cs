@@ -16,44 +16,51 @@ namespace Script.Devices
             text = GetComponent<TextMeshProUGUI>();
             while (true)
             {
-                Connect(DeviceIndex.IndoorTemp);
+                var devices = ServerConnection.Get();
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.OutdoorTemp);
+                text.SetText($"Indoor Temp: {devices.indoorTemp}C");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.Power);
+                text.SetText($"Outdoor Temp: {devices.outdoorTemp}C");
+                yield return new WaitForSeconds(_waitTime);
+
+                var status = devices.power == 0 ? "Off" : "On";
+                text.SetText($"Power: {status}");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.FireAlarm);
+                status = devices.fireAlarm == 0 ? "Off" : "On";
+                text.SetText($"Fire Alarm: {status}");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.DoorAlarm);
+                status = devices.doorAlarm == 0 ? "Off" : "On";
+                text.SetText($"Door Alarm: {status}");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.WaterLeakage);
+                status = devices.waterLeakage == 0 ? "Off" : "On";
+                text.SetText($"Water Leakage: {status}");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.Stove);
+                status = devices.stove == 0 ? "Off" : "On";
+                text.SetText($"Stove Alarm: {status}");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.Window);
+                status = devices.window == 0 ? "Off" : "On";
+                text.SetText($"Window Alarm: {status}");
                 yield return new WaitForSeconds(_waitTime);
                 
-                Connect(DeviceIndex.LightSensor);
+                status = devices.lightSensor == 0 ? "Night" : "Day";
+                text.SetText($"Light Sensor: {status}");
                 yield return new WaitForSeconds(_waitTime);
+                
+                
                 
 
             }
         }
 
 
-        private void Connect(DeviceIndex deviceIndex)
-        {
-            //var temp = ServerConnection.Get(deviceIndex);
-            //var read = int.Parse(temp);
-            text.SetText($"{deviceIndex.GetText()}: {0}");
-        }
+        
         
         
         

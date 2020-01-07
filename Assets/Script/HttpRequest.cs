@@ -1,17 +1,18 @@
 using System;
 using System.Text.RegularExpressions;
-using Proyecto26;
+using Script;
 using UnityEngine;
+using RestClient = Proyecto26.RestClient;
 
-namespace DefaultNamespace
+namespace Script
 {
     public class HttpRequest
     {
-        private readonly string path = "http://localhost:8080/SmartHouseApi/devices";
+        private readonly string path = "http://192.168.43.117:8080/SmartHouseApi/devices";
         private Device device = new Device();
         private string json = "";
 
-        private void getRequest()
+        public void getRequest()
         {
             RestClient.Get(path).Then(response =>
             {
@@ -35,24 +36,14 @@ namespace DefaultNamespace
                 device.timer1 = Int32.Parse(matches[12].Groups[1].ToString());
                 device.timer2 = Int32.Parse(matches[13].Groups[1].ToString());
                 device.lightSensor = Int32.Parse(response.Text.Substring(response.Text.Length - 2, 1));
-
-                // debugging values
-                // Debug.Log(device.indoorLamp);
-                // Debug.Log(device.outdoorLamp);
-                // Debug.Log(device.indoorTemp);
-                // Debug.Log(device.outdoorTemp);
-                // Debug.Log(device.radiator);
-                // Debug.Log(device.power);
-                // Debug.Log(device.fireAlarm);
-                // Debug.Log(device.doorAlarm);
-                // Debug.Log(device.fan);
-                // Debug.Log(device.waterLeakage);
-                // Debug.Log(device.stove);
-                // Debug.Log(device.window);
-                // Debug.Log(device.timer1);
-                // Debug.Log(device.timer2);
-                // Debug.Log(device.lightSensor);
+                
             }).Catch(err => { Debug.LogError("Request failed"); });
+        }
+
+        public Device Device
+        {
+            get => device;
+            set => device = value;
         }
 
         public void putRequest()
@@ -75,6 +66,19 @@ namespace DefaultNamespace
         {
             device.outdoorLamp = (device.outdoorLamp == 0) ? 1 : 0;
             json = "{\"2\":" + device.outdoorLamp + "}";
+            putRequest();
+        }
+        
+        public void changeRadiator()
+        {
+            device.radiator = (device.radiator == 0) ? 1 : 0;
+            json = "{\"5\":" + device.radiator + "}";
+            putRequest();
+        }
+        public void changeFan()
+        {
+            device.fan = (device.fan == 0) ? 255 : 0;
+            json = "{\"9\":" + device.fan + "}";
             putRequest();
         }
     }

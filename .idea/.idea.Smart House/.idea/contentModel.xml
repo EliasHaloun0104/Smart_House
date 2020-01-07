@@ -54,8 +54,8 @@
           </e>
           <e p="EegReader.cs" t="Include" />
           <e p="EnhancedArea.cs" t="Include" />
+          <e p="HttpRequest.cs" t="Include" />
           <e p="Instruction.cs" t="Include" />
-          <e p="RestClient.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

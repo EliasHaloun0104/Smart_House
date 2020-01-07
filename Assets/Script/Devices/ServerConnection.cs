@@ -6,13 +6,12 @@ namespace Script.Devices
 {
     public static class ServerConnection
     {
-        public static string Get(DeviceIndex deviceIndex)
+        public static Device Get()
         {
-            var client = new RestClient {endPoint = $"http://10.0.0.4:8080/SmartHouseApi/devices/{(int)deviceIndex}"};
-            var strResponse = client.makeRequest();
-            var json = JObject.Parse(strResponse);
-            var lightStatus = json["deviceStatus"];
-            return lightStatus.ToString();
+            var httpRequest = new HttpRequest();
+            httpRequest.getRequest();
+            var device = httpRequest.Device;
+            return device;
         }
         
 

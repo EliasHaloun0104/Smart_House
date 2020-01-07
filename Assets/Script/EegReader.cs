@@ -41,17 +41,16 @@ namespace Script
 
         // Start is called before the first frame update
 
-/*
+
         private IEnumerator Start()
         {
-            mode = Mode.NonMode;
             info.SetText("Connecting the headset...");
             yield return new WaitForSeconds(1);
             var isConnected = Connect();
             info.SetText(isConnected? "Headset connected successfully": "Failed to connect headset");
             yield return new WaitForSeconds(2);
             if (isConnected) StartCoroutine(Reading());
-        }*/
+        }
    
         private bool Connect()
         {
@@ -120,7 +119,7 @@ namespace Script
             indicator.transform.position = Vector3.MoveTowards(
                 indicator.transform.position,
                  hor.transform.position,
-                6*Time.deltaTime);
+                3*Time.deltaTime);
 
             if (eyeBlinking.IsTwoBlink())
             {
