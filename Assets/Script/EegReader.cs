@@ -14,6 +14,7 @@ namespace Script
     {
         [Header("Connection state")]
         [SerializeField] private TextMeshProUGUI info;
+        [SerializeField] private TextMeshProUGUI infoServer;
 
         [Header("Slider")] 
         [SerializeField] private Slider sliderHor;
@@ -48,6 +49,7 @@ namespace Script
             yield return new WaitForSeconds(1);
             var isConnected = Connect();
             info.SetText(isConnected? "Headset connected successfully": "Failed to connect headset");
+            infoServer.SetText("Server connected successfully");
             yield return new WaitForSeconds(2);
             if (isConnected) StartCoroutine(Reading());
         }

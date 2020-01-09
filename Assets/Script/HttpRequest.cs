@@ -8,7 +8,7 @@ namespace Script
 {
     public class HttpRequest
     {
-        private readonly string path = "http://192.168.43.117:8080/SmartHouseApi/devices";
+        private readonly string path = "http://10.0.0.200:8080/SmartHouseApi/devices";
         private Device device = new Device();
         private string json = "";
 

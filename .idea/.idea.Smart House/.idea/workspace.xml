@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c14e96a-7a06-46fa-8ab9-ec9cc339ddf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/HttpRequest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Smart House/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/BlinksManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/BlinksManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EegReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EegReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/HttpRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/HttpRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/RestClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/RestClient.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,10 +88,10 @@
         <option value="$PROJECT_DIR$/Assets/Script/LampManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Devices/ServerConnection.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Devices/ReadOnlyDevices.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/HttpRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnhancedArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/BlinksManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EegReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/HttpRequest.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +170,7 @@
       <workItem from="1575978606877" duration="13590000" />
       <workItem from="1577050534352" duration="2257000" />
       <workItem from="1577619286946" duration="2059000" />
-      <workItem from="1578300887597" duration="13404000" />
+      <workItem from="1578300887597" duration="20830000" />
     </task>
     <task id="LOCAL-00001" summary="Add File workspace">
       <created>1571149658252</created>
@@ -367,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578302790263</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Configure GET,PUT">
+      <created>1578387974443</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578387974443</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +392,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="Add File workspace" />
     <MESSAGE value="Commit Test" />
     <MESSAGE value="Commit Un-versioned Files" />
     <MESSAGE value="Add Cursor manager class" />
@@ -416,7 +416,8 @@
     <MESSAGE value="Add Readonly Device" />
     <MESSAGE value="Deleting &amp; Cleaning" />
     <MESSAGE value="Delete &amp; Cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete &amp; Cleaning" />
+    <MESSAGE value="Configure GET,PUT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configure GET,PUT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
